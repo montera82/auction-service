@@ -1,7 +1,6 @@
 # Introduction #
 
-A simple service for Auction. Utilizing serverless framework.
-
+A simple service for Auction utilizing serverless framework.
 
 ### Deploying
 Service is deployed in aws CloudFormation
@@ -9,6 +8,8 @@ Service is deployed in aws CloudFormation
 ```
 sls deploy -v
 ```
+
+To redeploy a specific fuction ` sls deploy -f <function-name> -v
 
 To remove existing deployment `sls remove -v`
 
