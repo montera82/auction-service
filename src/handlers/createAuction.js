@@ -1,7 +1,7 @@
 import { v4 as uuid} from 'uuid';
 import AWS from 'aws-sdk';
 
-const dynamoDB = AWS.DynamoDB.DocumentClient();
+const dynamodb = new AWS.DynamoDB.DocumentClient();
 
 async function createAuction(event, context) {
 
@@ -15,7 +15,7 @@ async function createAuction(event, context) {
     createdAt: now.toISOString()
   };
 
-  await dynamoDB.put({
+  await dynamodb.put({
     TableName : 'AuctionsTable', 
     Item: auction
   }).promise();
