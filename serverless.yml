@@ -38,7 +38,13 @@ functions:
     events:
       - http:
           method: GET
-          path: /auction/{id}           
+          path: /auction/{id} 
+  index:
+    handler: src/handlers/index.handler
+    events:
+      - http:
+          method: GET
+          path: /            
 
 custom:
   AuctionsTable:
