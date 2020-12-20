@@ -15,7 +15,7 @@ To remove existing deployment `sls remove -v`
 
 ## Gateway endpoint
 
-https://kvnxffh2hc.execute-api.eu-west-1.amazonaws.com/{env}/{handler}
+https://dotsmz9pbg.execute-api.eu-west-1.amazonaws.com/{env}/{resource}
 
 Possible values for <env> variable include `dev`, `staging` and `production`
 

@@ -14,7 +14,7 @@ AuctionsTable:
       - AttributeName: id
         KeyType: HASH  
     GlobalSecondaryIndexes:
-      - IndexName: StatusAndDate
+      - IndexName: StatusAndEndDate
         KeySchema:
           - AttributeName:  status
             KeyType: HASH
