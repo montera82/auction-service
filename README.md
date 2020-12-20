@@ -15,6 +15,18 @@ To remove existing deployment `sls remove -v`
 
 ## Gateway endpoint
 
-https://kvnxffh2hc.execute-api.eu-west-1.amazonaws.com/<env>/<handler>
+https://kvnxffh2hc.execute-api.eu-west-1.amazonaws.com/{env}/{handler}
 
 Possible values for <env> variable include `dev`, `staging` and `production`
+
+## Taling the logs
+`sls logs -f <functionName> -t`
+
+
+## Endpoints:
+```
+    POST - /auction
+    GET - /auctions
+    GET - /auction/{id}
+    PATCH - /auction/{id}
+```
