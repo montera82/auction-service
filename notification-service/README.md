@@ -1,12 +1,12 @@
 # Introduction #
 
-A simple service for Auction utilizing serverless framework.
+Notification micro service 
 
 ### Deploying
 Service is deployed in aws CloudFormation
 
 ```
-cd auction-service/ # or auth-service/
+cd notification-service/ 
 npm install
 sls deploy -v
 ```
