@@ -6,6 +6,8 @@ A simple service for Auction utilizing serverless framework.
 Service is deployed in aws CloudFormation
 
 ```
+cd auction-service # or auth-service
+npm install
 sls deploy -v
 ```
 
