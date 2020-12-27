@@ -11,7 +11,7 @@ async function sendMail(event, context) {
   const { subject, body, recipient } = email;
 
   const params = {
-    Source : process.env.SourceEmail,
+    Source : process.env.SOURCE_EMAIL,
     Destination : {
       ToAddresses : [
         recipient
