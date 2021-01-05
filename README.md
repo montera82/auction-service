@@ -1,6 +1,8 @@
 # Introduction #
 
-A simple service for Auction utilizing serverless framework.
+A simple service for Auction utilizing serverless framework with cloudformation templates.
+
+![image info](./architechure.png)
 
 ### Deploying
 Service is deployed in aws CloudFormation
